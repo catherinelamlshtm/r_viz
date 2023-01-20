@@ -121,6 +121,7 @@ ggplot(data = deer, aes(x=UTMX/1000, y=UTMY/1000)) +
 
 
 ## ---- fig.height=2, fig.width=6, eval=T, echo=T, out.width='100%', fig.cap = "Rate of change of spinal bone mineral density"----
+install.packages("ElemStatLearn")
 library(ElemStatLearn)
 data(bone)
 
